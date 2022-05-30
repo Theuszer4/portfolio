@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.nav.sticky {
+    background: #202124;
+    padding: 15px 0;
+}
+
+.nav .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav .menu li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.nav .menu li a:hover {
+    color: aqua;
+}
+
+.home {
+    display: flex;
+    background: url(../img/image.png) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    color: #fff;
+    min-height: 500px;
+    font-family: "Roboto", sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+/* Menu Mobile */
+
+.menu-mobile {
+    
+    width: 32px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 50px;
+    
+    
+}
+
+.menu-mobile div
+{
+    width: 30px;
+    height: 2px;
+    margin: 5px;
+    background-color: white;
+    
+}
+
+/* Estilização das Paginas */
+
+div#pag1
+{
+    height: 600px;
+    width: 100%;
+    background: rgba(0, 132, 240, 0.603);
+    /* background: linear-gradient(90deg, rgba(0,132,240,0.4542191876750701) 200%, rgba(0,212,255,1) 100%); */
+}
+
+div#conteudo-sobre
+{
+    width: 70%;
+    font-size: 30px;
+    padding: 10%;
+    margin-bottom: 15%;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+p#texto-sobre
+{
+    margin-top: 2%;
+}
+
+div#conteudo-sobre h1
+{
+    padding: 2%;
+}
+
+img#img-sobre
+{
+   width: 30%;
+   margin-left: 115%;
+   height: 100%;
+   border-radius: 10%;
+   margin-top: -30%;
+}
+
+div#pag2 
+{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0,132,240,0.4542191876750701) 200%, rgba(0,212,255,1) 100%);
+    
+}
+
+div#conteudo-objetivos
+{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+div#conteudo-objetivos h1
+{
+    margin-bottom: 2%;
+}
+
+div#pag3
+{
+    height: 100vh;
+    background: rgba(0, 132, 240, 0.603);
+}
+
+div#introducao-escolaridade li
+{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 1%;
+    font-family: "Roboto", sans-serif;
+}
+
+div#titulo-escolaridade
+{
+    text-align: center;
+    padding: 3%;
+    font-size: 30px;
+    color: #fff;
+}
+
+table {
+    color: #040405;
+    font-family: 'Roboto', sans-serif;
+    max-width: 50%;
+    position: absolute;
+    left: 50%;
+    right: 10%;
+    transform: translate(-50%);
+    
+}
+
+table, td, th
+{
+    padding: 9px;
+    border: 1px solid black;
+    border-style: solid;
+    text-align: center;
+    
+}
+
+th
+{
+    width: 200px;
+}
+
+td a
+{
+    color: #040405;
+}
+
+td:hover
+{
+    background-color: #A9A9A9	;
+}
+
+th:hover
+{
+    background-color: #00CED1;
+
+}
+
+tr:nth-child(odd)
+{
+    background-color: #AFEEEE;
+}
+
+.table-hidden
+{
+    display: none;
+}
+
+div#titulo-tabela
+{
+    text-align: center;
+    padding: 2%;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+
+footer
+{
+    height: 100px;
+    background-color: #202124;
+}
+
+
+div#pag4 
+{
+    height: 100px;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: #202124;
+    color: white;
+}
+
+
+div#introducao-rodape
+{
+    display: flex;
+    background-color: #202124;
+    color: white;
+    justify-content: center;
+}
+
+
+.fa-phone,.fa-envelope,.fa-linkedin,.fa-github 
+{
+    color: white;
+}
+
+footer div#pag4 a:hover > i
+{
+    color: #00CED1;
+}
+
+div#pag5
+{
+    height: 960px;
+    background: linear-gradient(90deg, rgba(0,132,240,0.4542191876750701) 200%, rgba(0,212,255,1) 100%);
+}
+
+div#habilidades-titulo
+{
+    text-align: center;
+    padding: 10%;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+div#introducao-habilidades
+{
+    font-size: 30px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+div#habilidades-1
+{
+    padding: 3%;
+    font-size: 30px;
+    margin-left: 30%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+div#habilidades-2
+{
+    font-size: 30px;
+    margin-left: 60%;
+    margin-top: -8%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.progeress{
+    color: #00CED1;
+}
+
+/* Media Querys Responsivo */
+
+@media (max-width: 1200px){
+    img#img-sobre
+    {
+        display: none;
+        
+    }
+
+    div#conteudo-sobre
+    {
+        width: 100%;
+    }
+
+    div#conteudo-sobre h1
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    div#pag1
+    {
+        height: 400px;
+    }
+
+    div#habilidades-2
+    {
+        
+        margin-left: 28%;
+        padding: 5%;
+    }
+
+}
+
+@media (max-width: 1047px){
+
+    div#titulo-tabela{
+        font-size: 20px;
+    }
+
+    div#introducao-escolaridade{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 947px) {
+    .max-width {
+        padding: 0 50px;
+    }
+
+    .nav.active .menu {
+        display: block;
+    }
+    
+    .menu-mobile{
+        display: block;
+        z-index: 999;
+    }
+    
+    .menu{
+        position: absolute;
+        right: 0;
+        width: 100vw;
+        display: block;
+        background-color: aqua;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+        z-index: 999;
+        
+    }
+
+    .menu:hover
+    {
+        background-color: #00CED1;
+    }
+
+
+    .menu-mobile li {
+        margin-left: 0;
+        opacity: 0;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .active-menu {
+        display: block;
+        
+        
+    }
+
+    .nav .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        background: black;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .nav .menu li {
+        display: block;
+    }
+
+    .nav .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+
+    img#img-sobre
+    {
+        display: none;
+    }
+
+    div#conteudo-sobre h1
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    div#pag3
+    {
+        height: 1160px;
+    }
+
+}
+
+@media(max-width: 905px){
+    div#titulo-escolaridade
+    {
+        font-size: 15px;
+    }
+
+    div#titulo-tabela
+    {
+        font-size: 15px;
+    }
+
+    table {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 690px) {
+
+    .menu-mobile {
+        right: 5%;
+        
+    }
+    
+    .home .home-content .text-1 {
+        font-size: 20px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 40px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 25px;
+    }
+
+    .nav.sticky{
+        background: none;
+    }
+
+    div#conteudo-sobre
+    {
+        font-size: 20px;
+        width: 100%;
+    }
+    div#conteudo-sobre h1
+    {
+        padding: 2%;
+    }
+
+    div#conteudo-objetivos
+    {
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    div#conteudo-sobre h1
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    div#introducao-escolaridade li
+    {
+    
+        font-size: 20px;
+    }
+
+    table, td, th
+    {   
+        padding: 5px;
+        border: 1px solid black;
+        border-style: solid;
+        text-align: center;
+    }
+
+    table
+    {
+        height: 10px;
+        width: 90%;
+    }
+
+    div#introducao-rodape
+    {
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width: 366px){
+    
+    .home .home-content .text-1 
+    {
+        font-size: 18px;
+        margin-left: -60px;
+    }
+    
+    .home .home-content .text-2 
+    {
+        font-size: 30px;
+        font-weight: 500;
+        margin-left: -60px;
+    }
+    
+    .home .home-content .text-3 
+    {
+        font-size: 20px;
+        margin-left: -60px;
+    }
+    
+    
+    div#introducao-escolaridade
+    {
+        font-size: 15px;
+    }
+    
+    table, td, th
+    {   
+        padding: 1px;
+        border: 1px solid black;
+        border-style: solid;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    table
+    {
+        height: 1px;
+        width: 50%;
+    }
+
+    div#introducao-rodape
+    {
+        font-size: 8px;
+    }
+}
+
+@media(max-height: 1000px){
+    
+    div#pag3
+    {
+        height: 1060px;
+    }
+    
+    table
+    {
+        width: 100%;
+        height: 1px;
+    }
+}
+
+@media(max-height: 667px){
+    div#pag3
+    {
+        height: 1080px;
+    }
+}
