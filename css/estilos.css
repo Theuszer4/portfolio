@@ -493,6 +493,12 @@ div#habilidades-2
     table {
         max-width: 100%;
     }
+
+    div#pag4 
+    {
+        height: 100px;
+        width: 50%;
+    }
 }
 
 @media (max-width: 690px) {
@@ -612,6 +618,12 @@ div#habilidades-2
     div#introducao-rodape
     {
         font-size: 8px;
+    }
+
+    div#pag4 
+    {
+        height: 100px;
+        width: 70%;
     }
 }
 
