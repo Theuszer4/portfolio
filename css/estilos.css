@@ -146,6 +146,29 @@ img#img-sobre
    margin-top: -30%;
 }
 
+div#curriculo-sobre
+{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+div#curriculo-sobre a
+{
+    border:  2px solid #202124;
+    padding: 10px 10px;
+    border-radius: 13px;
+    font-size: 1.9rem;
+    color: white;
+}
+
+div#curriculo-sobre a:hover
+{
+    color: white;
+  background-color: #202124;
+  transition: 1s;
+}
+
 div#pag2 
 {
     height: 400px;
@@ -303,7 +326,7 @@ div#pag5
 div#habilidades-titulo
 {
     text-align: center;
-    padding: 10%;
+    padding: 5%;
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     color: white;
@@ -571,6 +594,35 @@ div#habilidades-2
         font-size: 10px;
     }
 
+    div#curriculo-sobre
+    {
+        margin-top: 15%;
+    }
+
+    div#curriculo-sobre a
+    {
+        max-width: 50%;
+        font-size: 20px;
+    }
+
+    div#introducao-habilidades
+    {
+        font-size: 23px;
+    }
+
+    div#habilidades-1
+    {
+        margin-top: 10%;
+        font-size: 25px;
+    }
+
+    div#habilidades-2
+    {
+        font-size: 25px;
+        margin-top: 1%;
+    }
+
+
 }
 
 @media(max-width: 366px){
@@ -624,6 +676,11 @@ div#habilidades-2
     {
         height: 100px;
         width: 70%;
+    }
+
+    div#curriculo-sobre a
+    {
+        max-width: 100%;
     }
 }
 
