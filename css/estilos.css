@@ -143,7 +143,7 @@ img#img-sobre
    margin-left: 115%;
    height: 100%;
    border-radius: 10%;
-   margin-top: -30%;
+   margin-top: -40%;
 }
 
 div#curriculo-sobre
@@ -393,6 +393,13 @@ div#habilidades-2
         
         margin-left: 28%;
         padding: 5%;
+    }
+
+
+    div#curriculo-sobre a
+    {
+        max-width: 50%;
+        font-size: 20px;
     }
 
 }
