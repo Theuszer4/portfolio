@@ -576,6 +576,11 @@ div#habilidades-2
         justify-content: center;
     }
 
+    div#pag3
+    {
+        max-height: 1020px;
+    }
+
     div#introducao-escolaridade li
     {
     
@@ -652,6 +657,21 @@ div#habilidades-2
         font-size: 20px;
         margin-left: -60px;
     }
+
+    div#curriculo-sobre a
+    {
+        max-width: 100%;
+    }
+
+    div#pag3
+    {
+        max-height: 960px;
+    }
+
+    div#titulo-tabela
+    {
+        padding: 15%;
+    }
     
     
     div#introducao-escolaridade
@@ -685,13 +705,24 @@ div#habilidades-2
         width: 70%;
     }
 
-    div#curriculo-sobre a
+    div#pag5
     {
-        max-width: 100%;
+        max-height: 890px;
     }
+
+    div#habilidades-titulo
+    {
+        padding: 10%;
+    }
+
+    div#habilidades-1
+    {
+        margin-top: 30%;
+    }
+
 }
 
-@media(max-height: 1000px){
+@media(max-height: 1090px){
     
     div#pag3
     {
